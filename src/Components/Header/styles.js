@@ -9,10 +9,11 @@ export const Container = styled.header`
   background-color: ${({ theme }) => theme.COLORS.dark_600};
 
   display: flex;
+  gap: 32px;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 
-  padding: 0 80px;
+  padding: 0 123px;
 
   > img {
     width: 197px;

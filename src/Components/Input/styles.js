@@ -4,11 +4,11 @@ export const Container = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
 
   background-color: ${({ theme }) => theme.COLORS.dark_900};
   color: ${({ theme }) => theme.COLORS.light_500};
 
-  margin-bottom: 8px;
   border-radius: 5px;
 
   > input {
@@ -18,5 +18,12 @@ export const Container = styled.div`
     color: ${({ theme }) => theme.COLORS.light_100};
     background: transparent;
     border: 0;
+
+    &:placeholder {
+      color: ${({ theme }) => theme.COLORS.tomato_100};
+    }
+  }
+  > svg {
+    margin-left: 137px;
   }
 `

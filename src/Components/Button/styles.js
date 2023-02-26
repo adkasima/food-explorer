@@ -4,7 +4,7 @@ export const Container = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 11px;
+  gap: 8px;
   
   width: 100%;
   background-color: ${({ theme }) => theme.COLORS.tomato_100};
@@ -13,7 +13,6 @@ export const Container = styled.button`
   height: 56px;
   border: 0;
   padding: 0 16px;
-  margin-top: 16px;
   border-radius: 5px;
   font-weight: 500;
 
@@ -25,7 +24,4 @@ export const Container = styled.button`
     background-color: ${({ theme }) => theme.COLORS.tomato_400};
   }
 
-  svg {
-    width: 56px;
-  }
 `
