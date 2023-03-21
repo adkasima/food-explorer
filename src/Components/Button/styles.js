@@ -5,7 +5,7 @@ export const Container = styled.button`
   align-items: center;
   justify-content: center;
   gap: 8px;
-  
+
   width: 100%;
   background-color: ${({ theme }) => theme.COLORS.tomato_100};
   color: ${({ theme }) => theme.COLORS.light_100};
@@ -23,5 +23,4 @@ export const Container = styled.button`
   &:disabled {
     background-color: ${({ theme }) => theme.COLORS.tomato_400};
   }
-
 `
