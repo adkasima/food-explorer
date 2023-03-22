@@ -11,7 +11,7 @@ export function Signup() {
       <Form>
         <h2>Crie sua conta</h2>
 
-        <label htmlFor="name">Seu nome</label>
+        <label htmlFor="name">Nome</label>
         <Input placeholder="Exemplo: Maria da Silva" type="text" id="name" />
 
         <label htmlFor="email">Email</label>
