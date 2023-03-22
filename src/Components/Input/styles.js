@@ -19,8 +19,11 @@ export const Container = styled.div`
     background: transparent;
     border: 0;
 
-    &:placeholder {
-      color: ${({ theme }) => theme.COLORS.tomato_100};
+    &::placeholder {
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: ${({ theme }) => theme.COLORS.light_500};
     }
   }
   > svg {

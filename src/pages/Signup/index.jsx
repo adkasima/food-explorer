@@ -4,12 +4,15 @@ import { Input } from "../../Components/Input"
 import { Button } from "../../Components/Button"
 import { Logo } from "../../Components/Logo"
 
-export function Signin() {
+export function Signup() {
   return (
     <Container>
       <Logo />
       <Form>
-        <h2>Faça login</h2>
+        <h2>Crie sua conta</h2>
+
+        <label htmlFor="name">Seu nome</label>
+        <Input placeholder="Exemplo: Maria da Silva" type="text" id="name" />
 
         <label htmlFor="email">Email</label>
         <Input
@@ -25,8 +28,8 @@ export function Signin() {
           id="password"
         />
 
-        <Button title="Entrar" />
-        <a href="#">Criar uma conta</a>
+        <Button title="Criar conta" />
+        <a href="#">Já tenho uma conta</a>
       </Form>
     </Container>
   )

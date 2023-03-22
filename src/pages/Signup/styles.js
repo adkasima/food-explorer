@@ -42,10 +42,4 @@ export const Form = styled.form`
     margin-top: 32px;
   }
 
-  &placeholder {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: ${({ theme }) => theme.COLORS.light_500};
-  }
 `
