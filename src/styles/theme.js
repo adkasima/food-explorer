@@ -19,8 +19,8 @@ export default {
     dark_900: "#0D1D25",
     dark_1000: "#192227",
 
-    gradient_100: "",
-    gradient_200: "",
+    gradient_100: "rgba(0, 10, 15, 0.2725)",
+    gradient_200: "rgba(9, 30, 38, 1)",
 
     tomato_100: "#750310",
     tomato_200: "#92000E",

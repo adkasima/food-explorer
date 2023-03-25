@@ -15,6 +15,8 @@ export default createGlobalStyle`
         background-color: ${({ theme }) => theme.COLORS.dark_400};
         color: white;
 
+        overflow-x: hidden;
+
         --webkit-font-smoothing: antialiased;
         
     }
