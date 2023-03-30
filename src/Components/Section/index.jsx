@@ -20,7 +20,7 @@ export function Section(props) {
           value="R$ 49,97"
         />
 
-        <Card
+        {/* <Card
           src={gambe}
           alt="Imagem do prato Spaguetti Gambe"
           name="Spaguetti Gambe >"
@@ -35,6 +35,14 @@ export function Section(props) {
           desc="Presunto de parma e rúcula em um pão com fermentação natural."
           value="R$ 25,97"
         />
+
+        <Card
+          src={ravanello}
+          alt="Imagem do prato Salada Ravanello"
+          name="Salada Ravanello >"
+          desc="Rabanetes, folhas verdes e molho agridoce salpicados com gergelim"
+          value="R$ 49,97"
+        /> */}
       </div>
     </Container>
   )

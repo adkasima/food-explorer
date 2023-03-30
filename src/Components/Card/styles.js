@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,6 +14,12 @@ export const Container = styled.div`
 
   background-color: ${({ theme }) => theme.COLORS.dark_300};
   border-radius: 8px;
+
+  #heart-icon {
+    position: absolute;
+    top: 16px;
+    right: 18px;
+  }
 
   > h4 {
     font-family: "Poppins", sans-serif;

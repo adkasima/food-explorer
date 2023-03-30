@@ -11,9 +11,9 @@ export function Home() {
     <Container>
       <Header />
       <Banner />
-      <Section name="Refeições">
-        <Card name="aaaa" />
-      </Section>
+      <Section name="Refeições" />
+      <Section name="Sobremesas" />
+      <Section name="Bebidas" />
     </Container>
   )
 }

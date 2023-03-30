@@ -12,10 +12,11 @@ export const Container = styled.header`
   gap: 32px;
   align-items: center;
   justify-content: center;
+  text-align: center;
 
   padding: 0 123px;
 
-  > img {
+  > a img {
     width: 197px;
     height: 30px;
   }

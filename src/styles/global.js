@@ -29,6 +29,7 @@ export default createGlobalStyle`
 
     a {
         text-decoration: none;
+        color: ${({ theme }) => theme.COLORS.light_100};
     }
     
 
